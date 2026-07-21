@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+### Minor Changes
+
+- fd43000: feat: add Changesets for coordinated SDK and CLI version management
+
 All notable changes to the ILN CLI (`@iln/cli`) will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -13,6 +19,7 @@ To regenerate: `cd cli && git-cliff --config .cliff.toml`
 ## [0.1.0] - 2024
 
 ### Added
+
 - Initial CLI implementation with commander.js
 - Wallet management commands:
   - `iln wallet generate` for creating new keypairs
@@ -52,6 +59,7 @@ To regenerate: `cd cli && git-cliff --config .cliff.toml`
   - Confirmation message formatter
 
 ### Tests
+
 - Comprehensive unit tests for all helper functions
 - E2E tests for all commands
 - Interactive prompt mode tests with mocked prompter
@@ -61,6 +69,7 @@ To regenerate: `cd cli && git-cliff --config .cliff.toml`
 - State guard and error path tests
 
 ### Documentation
+
 - Comprehensive CLI README with usage guide
 - Installation instructions
 - Command reference with examples
